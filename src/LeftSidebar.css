@@ -1,0 +1,25 @@
+.left__Sidebar {
+  flex: 0.2;
+  background: #ffffff;
+  box-shadow: 3px 0px 3px rgba(192, 192, 192, 0.25);
+}
+
+.logo {
+  width: 136px;
+  height: 35px;
+  margin: 20px;
+}
+
+.top__text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #a6a5a5;
+}

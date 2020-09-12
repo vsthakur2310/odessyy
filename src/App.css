@@ -1,0 +1,12 @@
+body {
+  --main-color: #00704a;
+  --main-light-color: rgba(0, 112, 74, 0.4);
+}
+
+.App {
+  display: flex;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+}
