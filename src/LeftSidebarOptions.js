@@ -1,12 +1,15 @@
 import React from "react";
 import "./LeftSidebarOptions.css";
 
-function LeftSidebarOptions({ active, text, Icon }) {
+function LeftSidebarOptions({ active, text, button_icon }) {
   return (
     <div
      className={`left__Sidebar__option ${active && `leftSidebar__option--active`}`}>
     
-      {/* <Icon /> */}
+      <span>
+        {button_icon}
+        </span>
+      
       <h2>{text}</h2>
     </div>
   );

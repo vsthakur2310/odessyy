@@ -28,7 +28,16 @@
   color: #878787;
 }
 
-.left__Sidebar__option > h2:hover {
+.left__Sidebar__option > span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #878787;
+}
+
+.left__Sidebar__option > h2:hover,
+.left__Sidebar__option > span:hover {
   color: var(--main-color);
 }
 
@@ -40,5 +49,13 @@
 }
 
 .leftSidebar__option--active > h2 {
+  color: white;
+}
+
+.leftSidebar__option--active > h2:hover {
+  color: white;
+}
+
+.leftSidebar__option--active > span {
   color: white;
 }

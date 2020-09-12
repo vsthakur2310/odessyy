@@ -1,3 +1,15 @@
 .feed {
   flex: 0.6;
+  display: flex;
+  justify-content: center;
+}
+
+.feed_header {
+  position: sticky;
+  top: 0;
+  height: 200px;
+  width: 730px;
+  width: reltive;
+  z-index: 100;
+  border-bottom: 1px solid #666262;
 }

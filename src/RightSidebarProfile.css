@@ -1,0 +1,75 @@
+.right__sidebar__profile {
+  margin: 40px;
+  width: 201px;
+  height: 237px;
+  border-bottom: 1px solid #cecece;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right__sidebar__profile > img {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+}
+
+.right__sidebar__profile > h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  padding-bottom: 15px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  margin-top: 5px;
+  color: #575454;
+}
+
+.follow_section {
+  display: flex;
+  margin-top: -30px;
+}
+
+.following {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.following > h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  margin-left: 20px;
+  color: #363636;
+}
+
+.following > h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #363636;
+  margin-left: 20px;
+  margin-top: -12px;
+}
+
+.view_profile {
+  color: var(--main-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  padding-bottom: 15px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  margin-top: -1px;
+}
+
+.view_profile:hover{
+cursor: pointer;
+color: #02442e;
+}

@@ -1,6 +1,7 @@
 body {
   --main-color: #00704a;
   --main-light-color: rgba(0, 112, 74, 0.4);
+  --text-color: #878787;
 }
 
 .App {

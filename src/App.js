@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Feed from "./Feed";
 import LeftSidebar from "./LeftSidebar";
-// import Right_Sidebar from "./Right_Sidebar";
+import RightSidebar from "./RightSidebar";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Feed />
 
       {/* Right Sidebar */}
-      {/* <Right_Sidebar /> */}
+      <RightSidebar />
     </div>
   );
 }
