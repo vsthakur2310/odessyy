@@ -8,10 +8,12 @@ import baselineNotifications from "@iconify/icons-ic/baseline-notifications";
 function Search() {
   return (
     <div className="top__header">
+      <span></span>
       <div className="search">
         <Icon icon={bxSearchAlt2} />
         <input placeholder="Search"></input>
       </div>
+
       <Icon className="icon" icon={bookmarkFill} />
       <div className="line"></div>
       <Icon className="icon" icon={baselineNotifications} />

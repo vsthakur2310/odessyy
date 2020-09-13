@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Feed from "./Feed";
+import PoetryFeed from "./PoetryFeed";
 import LeftSidebar from "./LeftSidebar";
 import RightSidebar from "./RightSidebar";
 
@@ -11,7 +11,7 @@ function App() {
       <LeftSidebar />
 
       {/* Feed */}
-      <Feed />
+      <PoetryFeed />
 
       {/* Right Sidebar */}
       <RightSidebar />

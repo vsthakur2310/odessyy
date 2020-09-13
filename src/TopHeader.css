@@ -9,7 +9,7 @@
   border-bottom: 2px solid rgba(80, 79, 79, 0.32);
   font-size: 16px;
   color: rgba(12, 12, 12, 0.32);
-  margin-right:130px;
+  margin-right: 130px;
 }
 
 .search > input {
@@ -41,7 +41,7 @@
   color: #9d9999;
   cursor: pointer;
 }
-.icon:hover{
+.icon:hover {
   color: var(--main-color);
 }
 .line {
