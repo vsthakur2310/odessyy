@@ -3,7 +3,10 @@
   background: #ffffff;
   box-shadow: 3px 0px 3px rgba(192, 192, 192, 0.25);
   position: sticky;
-  
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .logo {
@@ -49,7 +52,8 @@
   font-size: 15px;
   letter-spacing: 0.01em;
   color: #b1b1b1;
-  margin-top: 55px;
+padding-bottom: 10px;
+bottom: -10px;
 }
 
 .footer > h4:hover {

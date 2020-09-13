@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  height: 100vh;
   position: sticky;
 }
 
@@ -15,6 +15,8 @@
   cursor: pointer;
   transition: transform 0.2s;
   margin-bottom: 10px;
+  margin-top: 560px;
+  bottom: -10px;
 }
 
 .right__Sidebar > img:hover {
