@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import PoetryFeed from "./PoetryFeed";
+import PoetryFeed from "./Poetry/PoetryFeed";
 import LeftSidebar from "./LeftSidebar";
 import RightSidebar from "./RightSidebar";
 

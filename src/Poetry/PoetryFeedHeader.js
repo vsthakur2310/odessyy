@@ -1,6 +1,6 @@
 import React from 'react'
 import "./PoetryFeedHeader.css"
-import TopHeader from './TopHeader'
+import TopHeader from '../TopHeader'
 
 function PoetryFeedHeader() {
     return (

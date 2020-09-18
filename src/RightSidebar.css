@@ -20,17 +20,123 @@
   display: none;
 }
 
-.right__Sidebar > img {
+.main__icon {
   width: 90px;
   height: 90px;
   cursor: pointer;
   transition: transform 0.2s;
   margin-bottom: 10px;
-  margin-top: 560px;
+  margin-top: 20px;
   bottom: -10px;
 }
 
-.right__Sidebar > img:hover {
+.main__icon:hover {
   cursor: pointer;
   transform: scale(1.2);
 }
+
+.small__icons {
+  margin-top: 20px;
+  width: 43px;
+  height: 43px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.small__icons:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.right__Sidebar__buttons {
+  margin-top: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: fit-content;
+  background-color: rgb(56, 56, 56);
+  color: #fff;
+  text-align: center;
+  padding: 5px 8px;
+  border-radius: 6px;
+  opacity: 0;
+  transition: opacity 1s;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip .tooltiptext {
+  top: 50px;
+  right: 105%;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 100%; /* To the right of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent rgb(56, 56, 56);
+}
+
+/* TOOLTIP QUOTE */
+
+.tooltip_small {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip_small .tooltiptext_small {
+  visibility: hidden;
+  width: 100px;
+  background-color: rgb(56, 56, 56);
+  color: #fff;
+  text-align: center;
+  padding: 5px 8px;
+  border-radius: 6px;
+  opacity: 0;
+  transition: opacity 1s;
+
+  /* Position the tooltip_small text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip_small text when you mouse over the tooltip_small container */
+.tooltip_small:hover .tooltiptext_small {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip_small .tooltiptext_small {
+  top: 25px;
+  left: 120%;
+}
+
+.small__buttons{
+display: block;
+visibility: hidden;
+}
+
