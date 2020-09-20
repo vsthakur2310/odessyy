@@ -7,21 +7,16 @@ import blog_button from "./blog.png";
 import quotes_button from "./quotes.png";
 
 function RightSidebar() {
-  // const [showButtons, setshowButtons] = useState(false);
-  // const onClick = () => setshowButtons(true);
-
-  // const smallButtons = () => (
-  //   <>
-
-  //     </>
-  //   );
+  const [showButtons, setshowButtons] = useState(false);
 
   return (
     <div className="right__Sidebar">
       <RightSidebarProfile />
 
-      <div className="right__Sidebar__buttons">
-        {/* <div className="small__buttons"> */}
+      {/* <div className="small__buttons"> */}
+
+      {showButtons && (
+        <div className="right__Sidebar__buttons">
           <div className="tooltip_small">
             <img className="small__icons  poetry" src={poetry_button} alt="" />
             <span class="tooltiptext_small">Write a Poetry</span>
@@ -36,16 +31,23 @@ function RightSidebar() {
             <img className="small__icons  quotes" src={quotes_button} alt="" />
             <span class="tooltiptext_small">Write a quote</span>
           </div>
-        {/* </div> */}
-
-        <div className="tooltip">
-          <img className="main__icon" src={pen_button} alt="" />
-          <span class="tooltiptext">Write</span>
         </div>
+      )}
 
-        {/* <img className="main__icon" src={pen_button} alt="" onClick={() => setshowButtons(true)} /> */}
-        {/* {showButtons ? {smallButtons} : null} */}
+      {/* </div> */}
+
+      <div className="tooltip">
+        <img
+          onClick={() => setshowButtons(!showButtons)}
+          className="main__icon"
+          src={pen_button}
+          alt=""
+        />
+        <span class="tooltiptext">Write</span>
       </div>
+
+      {/* <img className="main__icon" src={pen_button} alt="" onClick={() => setshowButtons(true)} /> */}
+      {/* {showButtons ? {smallButtons} : null} */}
     </div>
   );
 }

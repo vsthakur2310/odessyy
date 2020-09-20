@@ -1,6 +1,6 @@
 .poetry__post {
   width: 700px;
-  height: 355px;
+  height: fit-content;
   margin-top: 30px;
   margin-bottom: 40px;
   background: #ffffff;
@@ -9,6 +9,7 @@
   border-radius: 23px;
   display: flex;
   flex-direction: column;
+  padding-bottom: 5px;;
 }
 
 .poetry__post__upper {
@@ -106,6 +107,17 @@
   color: #e85757;
   margin-left: 570px;
   margin-top: -4px;
+}
+
+.date{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: 0.01em;
+  margin-left: 35px;;
+  color: #999999;
+  
 }
 
 .poetry__post__footer {

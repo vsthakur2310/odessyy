@@ -7,6 +7,7 @@ import penTool from "@iconify/icons-zondicons/pen-tool";
 import bookIcon from "@iconify/icons-icomoon-free/book";
 import textPage from "@iconify/icons-dashicons/text-page";
 import quillPenFill from "@iconify/icons-ri/quill-pen-fill";
+import { Link } from "react-router-dom";
 
 function LeftSidebar() {
   return (
@@ -16,12 +17,13 @@ function LeftSidebar() {
       <h3 className="top__text">Discover</h3>
 
       <LeftSidebarOptions button_icon={<Icon icon={bookIcon} />} text="Books" />
-
-      <LeftSidebarOptions
-        active
-        button_icon={<Icon icon={penTool} />}
-        text="Poetry"
-      />
+      <Link to="/" style={{ textDecoration: 'none' }}>
+        <LeftSidebarOptions
+          active
+          button_icon={<Icon icon={penTool} />}
+          text="Poetry"
+        />
+      </Link>
       <LeftSidebarOptions button_icon={<Icon icon={textPage} />} text="Blogs" />
       <LeftSidebarOptions
         button_icon={<Icon icon={quillPenFill} />}
