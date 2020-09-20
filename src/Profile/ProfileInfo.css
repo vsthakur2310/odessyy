@@ -1,0 +1,104 @@
+.profile__info {
+  width: 681px;
+  height: 186px;
+  background: #ffffff;
+  margin-top: 50px;
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.06),
+    1px 1px 10px rgba(0, 0, 0, 0.06);
+  border-radius: 23px;
+}
+
+.insidebox {
+  display: flex;
+  margin: 30px;
+  margin-left: 35px;;
+}
+
+.profile__pic__and__username {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile__picture {
+  width: 103px;
+  height: 103px;
+  border-radius: 50px;
+  border: 1px solid #bbbbbb;
+  box-sizing: border-box;
+}
+
+.username {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  color: #898989;
+}
+
+.user__info {
+  margin-left: 35px;
+}
+.userfullname {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+  letter-spacing: 0.01em;
+  color: #575454;
+}
+
+.bio {
+  width: 350px;
+  height: 62px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #676565;
+}
+
+.line__profile {
+  height: 121px;
+  border-right: 2px solid #dadada;
+}
+
+.following__details{
+    margin-left: 40px;
+    margin-top: -10px;;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.number {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  color: #625f5f;
+}
+
+.text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.01em;
+margin-top: -14px;;
+  color: #575454;
+}
+
+.edit{
+    float: right;
+    margin-top: -10px;
+}

@@ -1,4 +1,5 @@
-.user_profile{
-    display: flex;
-    align-items: center;
+.user_profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

@@ -1,10 +1,11 @@
 import React from "react";
 import "./Profile.css";
+import ProfileHeader from "./ProfileHeader";
 
 function Profile() {
   return (
     <div className="user_profile">
-      <h1>I'm profile</h1>
+      <ProfileHeader />
     </div>
   );
 }
